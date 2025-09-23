@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publications – Jesus Pineda Ramirez</title>
+    <!-- Import retro serif font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent-color: #E2A932;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #F9F5E9;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--accent-color);
+            z-index: 999;
+        }
+        nav {
+            background: #F9F5E9;
+            color: #2C4A52;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        nav a {
+            color: #2C4A52;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #D96C75;
+        }
+        section {
+            padding: 40px 10%;
+            background: linear-gradient(135deg, #FAF9F5 0%, #F4EDE4 100%);
+            position: relative;
+        }
+        section h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #2C4A52;
+            letter-spacing: 1px;
+            font-family: 'Playfair Display', serif;
+        }
+        section::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 80px;
+            height: 80px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .paper {
+            margin-bottom: 30px;
+        }
+        .paper h3 {
+            margin-top: 0;
+            font-size: 1.3em;
+            color: #003366;
+        }
+        .paper p {
+            margin: 10px 0;
+        }
+        .paper a {
+            margin-right: 10px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .paper a:hover {
+            text-decoration: underline;
+        }
+        /* Layout for publications intro and collage */
+        .publications-header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .pub-intro-text {
+            flex: 1;
+            min-width: 250px;
+        }
+        .pub-illustration {
+            flex-basis: 30%;
+            max-width: 280px;
+        }
+        .pub-illustration img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        /* Section heading with illustration */
+        .section-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .section-header h2 {
+            margin: 0;
+            flex: 1;
+        }
+        .header-illustration {
+            max-width: 150px;
+            height: auto;
+        }
+        footer {
+            background: #f4f4f4;
+            padding: 20px 10%;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <div class="section-header">
+            <h2>Selected Publications</h2>
+        </div>
+        <p>These papers highlight my contributions to virology, serology, epidemiology and public health. They span topics from neutralizing antibodies and serology platforms to long&nbsp;COVID classification, wastewater surveillance and immigrant community health.</p>
+        <div class="paper">
+            <h3>Circulating neutralizing antibodies and SARS‑CoV‑2 variant replication following post‑vaccination infections (2025)</h3>
+            <p>This study assessed how preexisting neutralizing antibodies impact viral shedding after vaccination. Higher baseline antibody levels correlated with lower maximum viral load and shorter infectious virus shedding in Delta infections; the effect was less clear for Omicron variants.</p>
+            <a href="https://www.researchgate.net/publication/389708304_Circulating_neutralizing_antibodies_and_SARS-CoV-2_variant_replication_following_postvaccination_infections" target="_blank">View paper</a>
+            <a href="https://www.researchgate.net/publication/389708304_Circulating_neutralizing_antibodies_and_SARS-CoV-2_variant_replication_following_postvaccination_infections" target="_blank">Download PDF</a>
+        </div>
+        <div class="paper">
+            <h3>High‑throughput multiplexed serology via mass‑spectrometric analysis of isotopically barcoded beads (2025)</h3>
+            <p>Traditional serology tests one antigen at a time, which is costly and slow. This paper shows how mass cytometry can scale up serology testing by analyzing multiple antigens in parallel, making the process faster and more affordable.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <div class="paper">
+            <h3>2024 Update of the RECOVER‑Adult Long COVID Research Index (2024)</h3>
+            <p>The RECOVER initiative updates the classification of long COVID to reflect its complexity and to incorporate new data. Iterative refinement ensures research stays current with evolving knowledge.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <div class="paper">
+            <h3>Early biological markers of post‑acute sequelae of SARS‑CoV‑2 infection (2024)</h3>
+            <p>In this study, 136 participants self‑collected up to 21 nasal specimens within 28 days of symptom onset to understand acute‑phase viral dynamics and immune responses associated with PASC.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <div class="paper">
+            <h3>Prevalence, patterns, and predictors of SARS‑CoV‑2 RNA and culturable virus in tears (2024)</h3>
+            <p>This research found that infectious SARS‑CoV‑2 is uncommon and present at low levels in tears, while viral RNA is common. It highlights the need to understand transmission via ocular fluids.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <div class="paper">
+            <h3>Viral determinants of acute COVID‑19 symptoms in a non‑hospitalized adult population in the pre‑Omicron era (2023)</h3>
+            <p>A longitudinal study of 85 symptomatic adults examined how viral RNA levels and infectious virus relate to symptom occurrence.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <div class="paper">
+            <h3>Longitudinal and quantitative fecal shedding dynamics of SARS‑CoV‑2, pepper mild mottle virus, and crAssphage (2023)</h3>
+            <p>This work used wastewater‑based epidemiology to analyze fecal shedding of SARS‑CoV‑2 and other indicator organisms, contributing to scalable monitoring of viral spread.</p>
+            <a href="https://www.researchgate.net" target="_blank">View paper</a>
+        </div>
+        <h3>Reports and Collaborations</h3>
+        <div class="paper">
+            <h3>American&nbsp;Dreaming: The Roadmap to Resilience for Undocumented Storytellers (2021)</h3>
+            <p>This report combines mental health surveys, life‑history interviews and digital storytelling workshops with 40 undocumented or formerly undocumented participants. It highlights themes of agency, support, inclusion, legacy and solidarity in the immigrant rights movement and provides a framework for resilience.</p>
+            <a href="American-Dreaming-The-Roadmap-to-Resilience-2021.pdf" target="_blank">Download PDF</a>
+        </div>
+        <div class="paper">
+            <h3>When Health and Nature Combine: A Park&nbsp;Rx Community Collaborative (2019)</h3>
+            <p>This study assesses the Santa&nbsp;Clara County Park&nbsp;Rx program prescribing nature walks to children and caregivers. The majority of caregivers and children reported enjoying the walks, valuing nature’s benefits and feeling more connected to others; focus groups highlighted increased social connectedness, new nature experiences and stress reduction.</p>
+            <a href="Honda_Valino.pdf" target="_blank">Download PDF</a>
+        </div>
+        <div class="paper">
+            <h3>Clinicians’ perceptions of the health status of formerly detained immigrants (2020)</h3>
+            <p>This research surveys healthcare providers across the United States regarding the health of immigrants released from detention. It reveals significant physical and mental health challenges among this population and underscores the need for comprehensive medical and social support.</p>
+            <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7373833/" target="_blank">View article</a>
+        </div>
+        <p>For a complete list of all 24 publications, visit my <a href="https://www.researchgate.net/profile/Jesus-Pineda-Ramirez/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsfX0" target="_blank">ResearchGate profile</a>.</p>
+    </section>
+    <footer>
+        <p>© 2025 Jesus Pineda Ramirez. All rights reserved.</p>
+    </footer>
+</body>
+</html>

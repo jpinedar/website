@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Research – Jesus Pineda Ramirez</title>
+    <!-- Import retro serif font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent-color: #E2A932;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #F9F5E9;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--accent-color);
+            z-index: 999;
+        }
+        nav {
+            background: #F9F5E9;
+            color: #2C4A52;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        nav a {
+            color: #2C4A52;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #D96C75;
+        }
+        section {
+            padding: 40px 10%;
+            background: linear-gradient(135deg, #FAF9F5 0%, #F4EDE4 100%);
+            position: relative;
+        }
+        section h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #2C4A52;
+            letter-spacing: 1px;
+            position: relative;
+            font-family: 'Playfair Display', serif;
+        }
+        /* No star on the research page headings */
+        section h2::before {
+            content: none;
+        }
+        /* decorative corner shape */
+        section::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 80px;
+            height: 80px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        /* Container for research text and image */
+        .research-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .research-text {
+            flex: 1;
+            min-width: 250px;
+        }
+        .research-image {
+            flex-basis: 40%;
+            max-width: 400px;
+        }
+        .research-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #f4f4f4;
+            padding: 20px 10%;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Research</h2>
+        <div class="research-container">
+            <div class="research-text">
+                <p>My work explores how viral dynamics, immunity, public health and community resilience shape disease outcomes. I use clinical, laboratory and community‑based studies to understand how the body responds to infection, vaccination and broader social determinants of health.</p>
+                <p>Key areas of focus include:</p>
+                <ul>
+                    <li>How neutralizing antibodies influence viral load and infectious virus shedding after vaccination.</li>
+                    <li>Development of high‑throughput serology methods to measure antibodies against multiple antigens.</li>
+                    <li>Refining classification systems for long&nbsp;COVID and studying early biomarkers of post‑acute sequelae.</li>
+                    <li>Evaluating the mental health and resilience of undocumented storytellers and immigrant families, using composite narratives and mixed methods.</li>
+                    <li>Studying the impact of Park&nbsp;Rx programs on Latino families’ social connectedness and stress reduction.</li>
+                    <li>Assessing health and wellbeing of immigrants released from detention and advocating for improved care.</li>
+                    <li>Monitoring viral RNA and culturable virus in tears and in wastewater to inform public health surveillance.</li>
+                </ul>
+            </div>
+            <div class="research-image">
+                <img src="collage-science.png" alt="Scientific collage illustrating viruses, antibodies, and microscopes">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Jesus Pineda Ramirez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
